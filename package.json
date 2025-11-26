@@ -1,6 +1,6 @@
 {
 	"name": "@modularmoon/barista",
-	"version": "1.1.6",
+	"version": "1.2.0",
 	"description": "Barista is a build tool that scans your project's HTML / JSX and creates non-semantic CSS Rules based on classNames that conform to a format which you define.",
 	"keywords": [
 		"CSS",
@@ -22,14 +22,14 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@rollup/pluginutils": "^5.1.0"
+		"@rollup/pluginutils": "^5.1.0",
+		"fast-glob": "^3.3.2"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.25.2",
 		"@babel/parser": "^7.25.4",
 		"@babel/preset-env": "^7.25.4",
 		"@babel/traverse": "^7.25.4",
-		"fast-glob": "^3.3.2",
 		"postcss": "^8.4.41",
 		"posthtml-parser": "^0.12.0",
 		"prettier": "^3.3.3",
